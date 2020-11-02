@@ -20,8 +20,11 @@ body,html{
 }
 .logo{
     display: flex;
-    align-self: start;
+    align-self: stretch;
     position: relative;
+    align-items: center;
+    padding-left: 1rem;
+    paddig-top: 1rem;
     
     
 }
@@ -30,6 +33,7 @@ body,html{
     position: relative;
     align-self: center;
     justify-content: flex-end;
+    padding: 1rem 1rem;
 }
 button{
     justify-content: space-around;
