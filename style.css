@@ -57,6 +57,7 @@ button{
     align-content: space-around;
 }
 .join-image{
+    display: flex;
     box-sizing: border-box;
     height: auto;
     margin-top: 20vh;
@@ -96,6 +97,7 @@ input{
     
 }
 .join-btn{
+    display: flex;
     margin-top: 3vh;
     padding: 10px 40px;
     width: 50%;
