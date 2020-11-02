@@ -1,0 +1,24 @@
+.Top-Nav{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-self: start;
+    position: relative;
+    
+}
+.sign-Up-Nav{
+    display: flex;
+    position: relative;
+    align-self: center;
+    justify-content: flex-end;
+}
+button{
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 2px 30px;
+}
