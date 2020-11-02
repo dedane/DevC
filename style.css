@@ -13,6 +13,7 @@ body,html{
     position: absolute;
     background-color: #E5E5E5;
     flex-direction: row;
+    height: 10vh;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -42,4 +43,25 @@ button{
     padding: 2px 30px;
     background-color: #18A9A9;
     color: #fff;
+}
+.sign-section{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 1rem;
+    /* align-items: flex-end; */
+    align-content: space-around;
+}
+.join-image{
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 20vh;
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+}
+.form{
+    margin-top: 30vh;
 }
