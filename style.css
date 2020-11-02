@@ -1,14 +1,28 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
 .Top-Nav{
     display: flex;
-    position: relative;
+    position: absolute;
+    background-color: #E5E5E5;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
 }
 .logo{
     display: flex;
     align-self: start;
     position: relative;
+    
     
 }
 .sign-Up-Nav{
@@ -18,7 +32,10 @@
     justify-content: flex-end;
 }
 button{
+    justify-content: space-around;
     border-radius: 40px;
     font-size: 20px;
     padding: 2px 30px;
+    background-color: #18A9A9;
+    color: #fff;
 }
